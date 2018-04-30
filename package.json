@@ -1,0 +1,25 @@
+{
+  "name": "friend-finder2.0",
+  "version": "1.0.0",
+  "description": "The Friend Finder application is basically a dating app, but for new buddies. This full-stack site will take in users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmetburhan/FriendFinder2.0.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ahmetburhan/FriendFinder2.0/issues"
+  },
+  "homepage": "https://github.com/Ahmetburhan/FriendFinder2.0#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
